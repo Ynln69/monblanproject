@@ -1,0 +1,218 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1782487012976,
+  "projectRoot": "/Users/ynln69/Documents/GitHub/monblanproject",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "src/data/posts.js",
+      "accessCount": 6,
+      "lastAccessed": 1782489676959,
+      "type": "file"
+    },
+    {
+      "path": "src/components/PostCard/PostCard.jsx",
+      "accessCount": 5,
+      "lastAccessed": 1782489507993,
+      "type": "file"
+    },
+    {
+      "path": "src/index.css",
+      "accessCount": 5,
+      "lastAccessed": 1782491141623,
+      "type": "file"
+    },
+    {
+      "path": "src/App.jsx",
+      "accessCount": 4,
+      "lastAccessed": 1782489698035,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ViewToggle/ViewToggle.jsx",
+      "accessCount": 3,
+      "lastAccessed": 1782489505819,
+      "type": "file"
+    },
+    {
+      "path": "src/components/PostList/PostList.jsx",
+      "accessCount": 3,
+      "lastAccessed": 1782489506928,
+      "type": "file"
+    },
+    {
+      "path": "src/components/LoadMore/LoadMore.jsx",
+      "accessCount": 3,
+      "lastAccessed": 1782489509104,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ViewToggle/ViewToggle.module.css",
+      "accessCount": 3,
+      "lastAccessed": 1782490726609,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 2,
+      "lastAccessed": 1782487644130,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Header/Header.jsx",
+      "accessCount": 2,
+      "lastAccessed": 1782489503049,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DateFilter/DateFilter.jsx",
+      "accessCount": 2,
+      "lastAccessed": 1782489504226,
+      "type": "file"
+    },
+    {
+      "path": "src/components/LoadMore/LoadMore.module.css",
+      "accessCount": 2,
+      "lastAccessed": 1782490727927,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 2,
+      "lastAccessed": 1782491129233,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1782487588605,
+      "type": "file"
+    },
+    {
+      "path": "vite.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1782487593708,
+      "type": "file"
+    },
+    {
+      "path": "src/main.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1782487603701,
+      "type": "file"
+    },
+    {
+      "path": "netlify.toml",
+      "accessCount": 1,
+      "lastAccessed": 1782487619049,
+      "type": "file"
+    },
+    {
+      "path": "public/favicon.svg",
+      "accessCount": 1,
+      "lastAccessed": 1782487626067,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Header/Header.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1782488006003,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DateFilter/DateFilter.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1782488018566,
+      "type": "file"
+    },
+    {
+      "path": "src/components/PostList/PostList.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1782488043199,
+      "type": "file"
+    },
+    {
+      "path": "src/components/PostCard/PostCard.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1782488055594,
+      "type": "file"
+    },
+    {
+      "path": "src/App.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1782488082877,
+      "type": "file"
+    },
+    {
+      "path": "public/icon/grid-list.svg",
+      "accessCount": 1,
+      "lastAccessed": 1782489339274,
+      "type": "file"
+    },
+    {
+      "path": "public/icon/list.svg",
+      "accessCount": 1,
+      "lastAccessed": 1782489345222,
+      "type": "file"
+    },
+    {
+      "path": "public/icon/bx-calendar.svg",
+      "accessCount": 1,
+      "lastAccessed": 1782489346196,
+      "type": "file"
+    },
+    {
+      "path": "public/icon/bx-plus.svg",
+      "accessCount": 1,
+      "lastAccessed": 1782489346704,
+      "type": "file"
+    },
+    {
+      "path": "public/logo.png",
+      "accessCount": 1,
+      "lastAccessed": 1782489347149,
+      "type": "file"
+    },
+    {
+      "path": "public/decor-top.png",
+      "accessCount": 1,
+      "lastAccessed": 1782489347532,
+      "type": "file"
+    },
+    {
+      "path": "public/decor-bottom.png",
+      "accessCount": 1,
+      "lastAccessed": 1782489347682,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

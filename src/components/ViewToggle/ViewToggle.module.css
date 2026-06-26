@@ -1,0 +1,15 @@
+.toggle {
+  display: flex;
+  gap: 21px;
+}
+
+.toggle button {
+  border: none;
+  background: none;
+  color: var(--color-button);
+  padding: 4px;
+}
+
+.active {
+  color: var(--color-hover);
+}

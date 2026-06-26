@@ -1,0 +1,9 @@
+.dateFilter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.label {
+  font-weight: 500;
+}
