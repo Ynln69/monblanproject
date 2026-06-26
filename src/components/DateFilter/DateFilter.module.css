@@ -1,9 +1,90 @@
 .dateFilter {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 21px;
+
+  @media (max-width: 560px) {
+    flex-wrap: wrap;
+  }
 }
 
 .label {
   font-weight: 500;
+  font-size: 14px;
+}
+
+.inputWrap {
+  position: relative;
+  height: 26px;
+  max-width: 162px;
+  display: flex;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-surface);
+
+  .input {
+    border: none;
+    padding-left: 8px;
+    background: transparent;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    color: #636264;
+    cursor: pointer;
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 13px;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .buttonBox {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+
+    .clearBtn,
+    .calendarBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      border: none;
+      border-left: 1px solid var(--color-border);
+      background: var(--color-border);
+      padding: 0;
+
+      &:hover {
+        background: var(--color-border);
+      }
+    }
+
+    .clearBtn {
+      border-right: 1px solid rgb(51 51 51 / 15%);
+    }
+  }
+}
+
+
+
+
+:global(.flatpickr-day.selected),
+:global(.flatpickr-day.selected:hover) {
+  background: var(--color-hover);
+  border-color: var(--color-hover);
+}
+
+:global(.flatpickr-day:hover) {
+  background: var(--color-bg);
+}
+
+:global(.flatpickr-current-month),
+:global(.flatpickr-weekday) {
+  font-family: var(--font-family);
 }

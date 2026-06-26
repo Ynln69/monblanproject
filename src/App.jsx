@@ -21,6 +21,11 @@ const App = () => {
 
   return (
     <div className={styles.app}>
+      <img
+        src="/decor-top.png"
+        alt="decorative top "
+        className={styles.contentDecorTop}
+      />
       <Header
         dateFrom={dateFrom}
         dateTo={dateTo}
@@ -37,11 +42,13 @@ const App = () => {
 
         <LoadMore
           hasMore={hasMore}
-          onClick={() => setVisibleCount((currentCount) => currentCount + PAGE_SIZE)}
+          onClick={() =>
+            setVisibleCount((currentCount) => currentCount + PAGE_SIZE)
+          }
         />
       </main>
     </div>
-  )
+  );
 }
 
 export default App

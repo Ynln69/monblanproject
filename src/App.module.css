@@ -1,12 +1,26 @@
 .app {
+  position: relative;
+  z-index: 1;
   min-height: 100%;
+
+  .contentDecorTop {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: auto;
+    pointer-events: none;
+  }
 }
 
 .content {
   max-width: var(--content-max-width);
   margin-inline: auto;
   padding-inline: 16px;
+
+
 }
+
 
 .toolbar {
   display: flex;
