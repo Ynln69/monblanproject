@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/logo.png" alt="monblanproject logo" width="140" />
+</p>
+
 # monblanproject
 
 Адаптивний односторінковий сайт — профіль у стилі стрічки соцмережі
