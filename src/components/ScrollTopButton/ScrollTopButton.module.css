@@ -1,0 +1,29 @@
+.button {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-green);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease, opacity 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 560px) {
+    right: 16px;
+    bottom: 16px;
+    width: 42px;
+    height: 42px;
+  }
+}

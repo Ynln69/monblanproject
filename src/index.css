@@ -8,11 +8,12 @@
   --color-bg: #FAFAFA;
   --color-surface: #fff;
   --color-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.12),
-  inset 0 12px 24px 0 rgba(0, 0, 0, 0.12);
-  
-  --color-hover: #3D8EDA;
+    inset 0 12px 24px 0 rgba(0, 0, 0, 0.12);
 
-  --content-max-width: 1100px;
+  --color-hover: #3D8EDA;
+  --color-green: #2f6e5e;
+
+  --content-max-width: 868px;
   --radius: 8px;
 }
 
@@ -31,6 +32,23 @@ body {
   font-family: var(--font-family);
   color: var(--color-text);
   background-color: var(--color-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
 }
 
 img {

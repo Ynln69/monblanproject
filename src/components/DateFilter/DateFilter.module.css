@@ -71,9 +71,6 @@
   }
 }
 
-
-
-
 :global(.flatpickr-day.selected),
 :global(.flatpickr-day.selected:hover) {
   background: var(--color-hover);

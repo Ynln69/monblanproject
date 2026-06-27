@@ -1,22 +1,122 @@
-.cardGrid {
-  background: var(--color-surface);
-  border-radius: var(--radius);
-  overflow: hidden;
+.metricLabel {
+  font-weight: 500;
+}
+
+.metrics {
+  display: flex;
+  gap: 28px;
+}
+
+.metric {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+
+  svg {
+    flex-shrink: 0;
+  }
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.actionLabel {
+  font-weight: 500;
+}
+
+.group .metrics {
+  margin-top: 12px;
 }
 
 .cardList {
   display: flex;
   align-items: center;
-  gap: 24px;
-  background: var(--color-surface);
-  padding: 12px 16px;
-  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+
+  .thumb {
+    width: 86px;
+    height: 86px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .metricLabel,
+  .actionLabel {
+    font-size: 16px;
+  }
+
+  .metric,
+  .actionDate {
+    font-size: 14px;
+  }
+
+  .actionDate {
+    font-weight: 500;
+  }
+
+  .metric svg {
+    width: 18px;
+    height: 18px;
+  }
 }
 
-.thumb {
-  background: var(--color-border);
-}
-
-.body {
+.bodyList {
   flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(106px, 1fr));
+  align-items: center;
+  gap: 24px;
+  padding: 16px 30px 27px;
 }
+
+.cardGrid {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface);
+
+  .thumb {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .metricLabel {
+    font-size: 16px;
+  }
+
+  .metric {
+    font-size: 14px;
+    font-weight: 500;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .actionLabel {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .actionDate {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: right;
+  }
+}
+
+.bodyGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  row-gap: 14px;
+  column-gap: 8px;
+  padding-inline: 12px;
+  padding-block: 18px;
+}
+
